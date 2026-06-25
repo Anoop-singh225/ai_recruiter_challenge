@@ -14,7 +14,7 @@ team_members:
     email: "rohitsharma01857@gmail.com"
     role: "ML Engineer"
 
-github_repo: "https://github.com/sanoop6027/ai_recruiter_challenge"
+github_repo: "https://github.com/Anoop-singh225/ai_recruiter_challenge/tree/main"
 sandbox_link: "https://colab.research.google.com/drive/1example"
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./teamnextmatrix.csv"
