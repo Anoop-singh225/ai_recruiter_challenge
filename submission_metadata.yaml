@@ -15,7 +15,7 @@ team_members:
     role: "ML Engineer"
 
 github_repo: "https://github.com/Anoop-singh225/ai_recruiter_challenge/tree/main"
-sandbox_link: "https://colab.research.google.com/drive/1example"
+sandbox_link: "https://colab.research.google.com/drive/1mj7AqbcP3AIh5Dg65SUVMKmybjYx3Amd?usp=sharing"
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./teamnextmatrix.csv"
 
