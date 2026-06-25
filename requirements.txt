@@ -1,0 +1,3 @@
+# Standard library only for ranking to ensure maximum speed and compatibility.
+# No heavy ML dependencies required at runtime.
+pyyaml>=6.0

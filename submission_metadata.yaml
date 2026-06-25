@@ -1,0 +1,53 @@
+# Redrob Hackathon — Submission Metadata
+team_name: "teamnextmatrix"
+
+primary_contact:
+  name: "Anoop Singh"
+  email: "sanoop6027@gmail.com"
+  phone: "+91-9302708628"
+
+team_members:
+  - name: "Anoop Singh"
+    email: "sanoop6027@gmail.com"
+    role: "AI Lead"
+  - name: "Rohit Sharma"
+    email: "rohitsharma01857@gmail.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/sanoop6027/ai_recruiter_challenge"
+sandbox_link: "https://colab.research.google.com/drive/1example"
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./teamnextmatrix.csv"
+
+compute:
+  platform: "Local PC"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.13.0"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Claude"
+  - "Gemini"
+
+ai_usage_summary: |
+  Used Gemini for coding assistance and Claude for design discussion and code review.
+  No candidate data was shared with any closed external LLMs.
+
+methodology_summary: |
+  Rule-based ranker with explicit reasoning capture. Five scoring components
+  (skills, title+career, experience years, location, education) combined with
+  a multiplicative behavioral-signal modifier. Includes a high-precision anomaly
+  and honeypot detector to filter trap candidates (e.g. expert skill with 0 dur,
+  YoE mismatch, Krutrim/Sarvam AI tenure dates). Ties broken using candidate_id ascending.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
